@@ -386,6 +386,16 @@ Kontakt              </h2>
               <div>
                 <input type="text" class="message-box" placeholder="Wiadomość" />
               </div>
+              <form action="/submit" method="post">
+                <label for="temat">Wybierz temat:</label>
+                <select id="temat" name="temat">
+                  <option value="temat1">Jakie są ceny za poszczególne karnety?</option>
+                  <option value="temat2">Czy honorowana jest karta MultiSport?</option>
+                  <option value="temat3">Czy są zajęcia z pilatesu?</option>
+                </select>
+                
+                <br><br>
+                     
               <div class="d-flex ">
                 <button>
                   Wyślij 
